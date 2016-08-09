@@ -6,8 +6,8 @@ What is the smallest positive number that is evenly divisible by all of the numb
 
 package main.java.problems;
 
-public class Euler5 {
-    public static void solve() {
+public class Euler5 extends Euler {
+    public void solve() {
         int x = 19;
         boolean solved = false;
         do {
