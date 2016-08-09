@@ -28,6 +28,18 @@ public class Driver {
                 case "4":
                     Euler4.solve();
                     break;
+                case "5":
+                    Euler5.solve();
+                    break;
+                case "6":
+                    Euler6.solve();
+                    break;
+                case "7":
+                    Euler7.solve();
+                    break;
+                case "8":
+                    Euler8.solve();
+                    break;
                 case "q":
                     break;
                 case "quit":
@@ -46,6 +58,10 @@ public class Driver {
         System.out.println("| 2) Even Fibonacci numbers      |");
         System.out.println("| 3) Largest Prime Factor        |");
         System.out.println("| 4) Largest Palindrome Product  |");
+        System.out.println("| 5) Smallest Multiple           |");
+        System.out.println("| 6) Sum Square Difference       |");
+        System.out.println("| 7) 10001st Prime               |");
+        System.out.println("| 8) Largest Product in a Series |");
         System.out.println("|                                |");
         System.out.println("| q || quit) To Quit             |");
         System.out.println("----------------------------------");
