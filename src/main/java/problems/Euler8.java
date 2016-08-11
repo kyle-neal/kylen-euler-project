@@ -27,8 +27,8 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
  */
 package main.java.problems;
 
-public class Euler8 {
-    static private String number =
+public class Euler8 extends Euler {
+    private String number =
             "73167176531330624919225119674426574742355349194934" +
                     "96983520312774506326239578318016984801869478851843" +
                     "85861560789112949495459501737958331952853208805511" +
@@ -50,14 +50,14 @@ public class Euler8 {
                     "05886116467109405077541002256983155200055935729725" +
                     "71636269561882670428252483600823257530420752963450";
 
-    public static void solve() {
-        int length = number.length();
+    public void solve() {
+        int length = this.number.length();
         long maxProduct = 0;
         for (int x = 0; x < length; x++) {
             if (x + 13 > length) {
                 break;
             } else {
-                String substr = number.substring(x, x + 13);
+                String substr = this.number.substring(x, x + 13);
                 if (!substr.contains("0")) {
                     long product = product(substr.toCharArray(), 0, 0);
                     if (product > maxProduct) {
