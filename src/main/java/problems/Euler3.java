@@ -7,8 +7,9 @@
 package main.java.problems;
 
 public class Euler3 extends Euler {
+    private final long number = 600851475143L;
+
     public void solve() {
-        long number = 600851475143L;
         System.out.println("Give me a few years to complete....");
         try {
             Thread.sleep(3000);

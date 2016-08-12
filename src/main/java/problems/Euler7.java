@@ -7,7 +7,7 @@ What is the 10 001st prime number?
 package main.java.problems;
 
 public class Euler7 extends Euler {
-    private int target = 10001;
+    private final int target = 10001;
 
     public void solve() {
         int count = 0;

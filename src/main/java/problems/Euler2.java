@@ -9,7 +9,7 @@
 package main.java.problems;
 
 public class Euler2 extends Euler {
-    private static final int fib_max = 4000000;
+    private final int fib_max = 4000000;
 
     public void solve() {
         int sum = 0;
