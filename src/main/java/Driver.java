@@ -16,7 +16,8 @@ public class Driver {
                 new Euler6(),
                 new Euler7(),
                 new Euler8(),
-                new Euler9()
+                new Euler9(),
+                new Euler10()
         };
         do {
             print_menu();
@@ -60,6 +61,7 @@ public class Driver {
         System.out.println("| 7) 10001st Prime               |");
         System.out.println("| 8) Largest Product in a Series |");
         System.out.println("| 9) Pythagorean Triplet (NYI)   |");
+        System.out.println("| 10) Sum of Primes under 2M     |");
         System.out.println("|                                |");
         System.out.println("| q || quit) To Quit             |");
         System.out.println("----------------------------------");
