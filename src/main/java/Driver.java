@@ -26,7 +26,7 @@ public class Driver {
 
     private static int get_choice(int max) {
         do {
-            System.out.print("java_practice> ");
+            System.out.print("kylen-euler-project> ");
             Scanner sc = new Scanner(System.in);
             if (sc.hasNextInt()) {
                 int choice = sc.nextInt();
