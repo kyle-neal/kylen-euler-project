@@ -38,7 +38,6 @@ public class Euler11 extends Euler {
                 int hor = getProductHorizontal(y, x, arr);
                 int diagonal = getProductDiagonal(y, x, arr);
                 int currentMax = Math.max(ver, Math.max(hor, diagonal));
-                System.out.println(ver + " " + hor + " " + diagonal + " -> " + currentMax + " > " + max + " ?");
                 if (currentMax > max)
                     max = currentMax;
             }
