@@ -27,22 +27,17 @@ public class Euler12 extends Euler {
         int i = 1;
         int lastSum = 1;
         int count;
-        int naturalNumber;
+        int triangularNumber;
 
         do {
             count = 1;
             i++;
-            naturalNumber = lastSum + i;
-            int x;
-            if (naturalNumber % 2 == 0)
-                x = 2;
-            else
-                x = 1;
-
-            for (x;  x < naturalNumber; x += 2)
-                if (naturalNumber % x == 0)
+            triangularNumber = lastSum + i;
+            lastSum = triangularNumber;
+            for (int y = 1; y < triangularNumber; y++)
+                if (triangularNumber % y == 0)
                     count++;
-            System.out.println(naturalNumber + " has " + count + " divisors");
+            System.out.println(triangularNumber + " has " + count + " divisors");
         } while (count < target);
     }
 }
