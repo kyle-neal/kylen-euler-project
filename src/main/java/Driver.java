@@ -19,7 +19,8 @@ public class Driver {
                 new Euler9(),
                 new Euler10(),
                 new Euler11(),
-                new Euler12()
+                new Euler12(),
+                new Euler13()
         };
         do {
             print_menu();
@@ -66,6 +67,7 @@ public class Driver {
         System.out.println("| 10) Sum of Primes under 2M     |");
         System.out.println("| 11) Max Product 20X20 array    |");
         System.out.println("| 12) Triangular Number Divisors |");
+        System.out.println("| 13) First 10 digits of sum     |");
         System.out.println("|                                |");
         System.out.println("| q || quit) To Quit             |");
         System.out.println("----------------------------------");
